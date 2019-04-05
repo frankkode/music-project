@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*test*/
+
+.image-big {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* Navbar */
+
+
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:black;
+    border: 0;
+    
+    
+    
+   
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    
+    
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: orange;
+    
+    
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+/* Buttons. */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 9px;
+    padding-right: 15px;
+    
+    
+    
+  
+}
+
+.btn--red {
+    color: white;
+    background-color: grey;
+    border-color: white; 
+    float: right;
+    margin-left: 50px;
+    margin-right: -50px;
+    height: 35px;
+    
+  
+    
+}
+.shop{
+  
+}
+.btn{
+    border-color: red;
+   
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #DEB887;
+
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 15px;
+     
+}
+.uppercase:hover{
+    background-color: #e84610;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #F0FFFF;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    color: #F0FFFF;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+.social-links {
+    padding-bottom: 20px;
+}
+
+.social-links li a i {
+    width: 42px;
+    
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: orange;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #51D1E5;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+li{
+    display: inline
+}
+h3 {
+    
+  border-radius: 25px;
+  background: grey;
+  padding: 5px; 
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  border-color: white;
+  
+  
+  
+}
+
+
+
+
