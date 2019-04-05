@@ -89,9 +89,9 @@ body {
 }
 
 .btn--red {
-    color: white;
-    background-color: grey;
-    border-color: white; 
+   
+    background-color: #79a801;
+    
     float: right;
     margin-left: 50px;
     margin-right: -50px;
@@ -104,6 +104,7 @@ body {
   
 }
 .btn{
+    color: orange;
     border-color: red;
    
 }
@@ -220,5 +221,10 @@ h3 {
 }
 
 
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
 
 
