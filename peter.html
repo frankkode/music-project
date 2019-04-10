@@ -1,73 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Style the content */
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #f1f1f1;
-  padding: 10px;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-}
-</style>
+    <meta charset="utf-8">
+    <title>The monkees</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   
+  
 </head>
 <body>
 
@@ -129,9 +72,85 @@ Now Peter has a solo album, Stranger Things Have Happened and he has perfomed ma
   </article>
 </section>
 
-<footer>
-  <p>copy right 2019</p>
-</footer>
+ <footer class="container-fluid">
+            
+            <div class="row">
+                 <div class="col-sm-4">
+           <h3 class="uppercase btn conta">Contact</h3>
+    
+                    <address>
+                        <font color="#bfbfbf">
+           The monkees.<br> 
+           Visit us at:<br>
+           <a href="https://www.google.com/maps/place/Potatisv%C3%A4gen+4A,+961+48+Boden/@65.7714301,21.7290246,17z/data=!4m5!3m4!1s0x467f5ecb9715c66f:0xc1fe39816f599ab6!8m2!3d65.7714301!4d21.7312133">Potatisvägen 4A <br>Sävast-Boden<br>
+            Box 961 48, Boden<br>
+            Sweden</a>
+            </font>
+            </address> 
+        </div>
+        <div class="inline-block">
+  
+          <div class="col-sm-4 row">
+              
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fab fa-facebook-f"></i>
+                            <span class="">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter"></i>
+                            <span class="">Twitter</span>
+                        </a>
+                    </li>
+                   
+                    
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fab fa-instagram"></i>
+                            <span class="">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fab fa-youtube"></i>
+                            <span class="">YouTube</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            
+     </div>
+  
+     <div class="d-md-block d-lg-block col-lg-4 ">
+          <h3 class="uppercase btn conta">info</h3>
+            <p>
+       <font color="#bfbfbf">
+         
+        <p><a href="">Privacy&policy</a></p>
+        <p><a href="">Term&condition</a></p>
+        <p><a href="">FAQs</a></p>
+        
+        </font>
+            </p>
+        </div>
+   
+    
+ </footer>
+        
+         
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
