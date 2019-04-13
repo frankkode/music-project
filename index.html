@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
    
-  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    
-   
+  
   <div class="container-fluid navalert-container">
         <div class="container-fluid alert-container">
             <div class="row d-none d-sm-block">
@@ -78,8 +79,11 @@
                    
             
             <div class="d-none d-md-block">
-                <a href="signup.html" class="btn btn--cta btn--red">Sign Up</a>
-            </div>
+                
+    <button class="btn btn--cta btn--red" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+  </div>
+
+            
         </nav>
     </div>
     
@@ -232,89 +236,132 @@ More dates to be announced soon.</font></p>
   </div>
 </div>  
    
-   
+  
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
 
      
-    
-     <footer class="container-fluid">
-            
-            <div class="row">
-                 <div class="col-sm-4">
-           <h3 class="uppercase btn conta">Contact</h3>
-    
-                    <address>
-                        <font color="#bfbfbf">
-           The monkees.<br> 
-           Visit us at:<br>
-           <a href="https://www.google.com/maps/place/Potatisv%C3%A4gen+4A,+961+48+Boden/@65.7714301,21.7290246,17z/data=!4m5!3m4!1s0x467f5ecb9715c66f:0xc1fe39816f599ab6!8m2!3d65.7714301!4d21.7312133">Potatisvägen 4A <br>Sävast-Boden<br>
-            Box 961 48, Boden<br>
-            Sweden</a>
-            </font>
-            </address> 
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/new-york.png" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
         </div>
-        <div class="inline-block">
-  
-          <div class="col-sm-4 row">
-              
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                           <i class="fab fa-facebook-f"></i>
-                            <span class="">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-twitter"></i>
-                            <span class="">Twitter</span>
-                        </a>
-                    </li>
-                   
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                           <i class="fab fa-instagram"></i>
-                            <span class="">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                           <i class="fab fa-youtube"></i>
-                            <span class="">YouTube</span>
-                        </a>
-                    </li>
-                    
-                </ul>
-                
-            </div>
-            
-     </div>
-  
-     <div class="d-md-block d-lg-block col-lg-4 ">
-          <h3 class="uppercase btn conta">info</h3>
-            <p>
-       <font color="#bfbfbf">
-         
-        <p><a href="">Privacy&policy</a></p>
-        <p><a href="">Term&condition</a></p>
-        <p><a href="">FAQs</a></p>
-        
-        </font>
-            </p>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/paris.png" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
         </div>
-   
-    
- </footer>
-        
-         
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
-  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/chicago.png" alt="chicago" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>chicago</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+<div class="member">
+      <div class="third">
+        <p>Name</p>
+        <img src="images/smith.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="third">
+        <p>Name</p>
+        <img src="images/smith.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="third">
+        <p>Name</p>
+        <img src="images/smith.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+       <div class="third">
+        <p>Name</p>
+        <img src="images/smith.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center"><font color=orange>CONTACT</font></h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+       <font color=orange> <i class="fa fa-map-marker" style="width:30px"></i>Boden, SWEDEN<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +46704052680<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: masasimpafra@gmail.com<br></font>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+    <!-- End Page Content -->
+    </div>
+
+
+
+     <!-- Footer -->
+       <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+       <i class="fa fa-facebook-official w3-hover-opacity"></i>
+       <i class="fa fa-instagram w3-hover-opacity"></i>
+       <i class="fa fa-snapchat w3-hover-opacity"></i>
+       <i class="fa fa-twitter w3-hover-opacity"></i>
+       <p class="w3-medium">copy right 2019</p>
+       </footer>
+
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
 </html>

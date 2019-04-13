@@ -355,7 +355,7 @@ footer {
  
  float:left;
   position: absolute;
-  top: 70%;
+  top: 100%;
   left: 35%;
   transform: translate(-50%, -50%);
   color: white;
@@ -392,4 +392,9 @@ footer {
 }
 .warning:hover{
     background-color: #D2691E;
+}
+
+.third{
+    border-radius: 25px;
+    display: inline-block;
 }
