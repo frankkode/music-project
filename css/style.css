@@ -16,7 +16,7 @@ background-position: center;
   width: 100%;
   height: 500px;
   margin-bottom: 50px;
-  border-radius: 25px;
+  border-radius: 15px;
  
   
 	
@@ -289,7 +289,7 @@ body {
 }
 
 .jumbotron{
-    background:url(../images/back2.png);
+    background:url(../images/freeimage.png);
 }
 
 
@@ -312,30 +312,31 @@ body {
 footer {
     background-color: #002d45;
     color: #F0FFFF;
-    min-height: 120px;
+    min-height: 130px;
     margin: 25px;
     border-radius: 25px;
+    text-align: center;
+    display: block;
 }
 
 
 .conta:hover{
-    background: #51D1E5;
+    background: #51D1E8;
 }
 
 .social-links {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
-.social-links li a i {
-    width: 42px;
-    
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+.social-links  li a i {
+    width: 35px;
+
+    border-radius: 30px;
+    font-size: 33px;
+    line-height: 77px;
     text-align: center;
     color: orange;
-    background: #8f8f8f;
+    
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -355,7 +356,7 @@ footer {
  
  float:left;
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 35%;
   transform: translate(-50%, -50%);
   color: white;
@@ -393,8 +394,13 @@ footer {
 .warning:hover{
     background-color: #D2691E;
 }
-
-.third{
-    border-radius: 25px;
-    display: inline-block;
+.medium{
+    text-align: center;
+   
+    margin-bottom:0px;
 }
+
+
+
+
+
