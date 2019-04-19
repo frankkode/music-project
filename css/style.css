@@ -246,7 +246,7 @@ button {
     color: orange;
     background-color: red;
 }
-h3 {
+h {
     
   border-radius: 25px;
   background: orange;
@@ -317,20 +317,18 @@ body {
 
  
 
-footer {
+.footer {
     background-color: black;
     color: #F0FFFF;
-    min-height: 130px;
-    margin: 0px;
+    height: 130px;
+   
     border-radius: 7px;
     text-align: center;
     display: block;
+    margin-bottom: 1px;
 }
 
 
-.conta:hover {
-    background: #51D1E8;
-}
 
 .social-links {
     padding-bottom: 5px;
@@ -338,7 +336,6 @@ footer {
 
 .social-links  li a i {
     width: 35px;
-
     border-radius: 30px;
     font-size: 33px;
     line-height: 77px;
@@ -395,70 +392,6 @@ footer {
 /*contact form*/
 
 
-input[type=text], select{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color: black;
-}
-
-textarea{
-    width: 500px;
-  padding: 52px;
-  border: 4px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
- margin-top: 5px;
-  margin-bottom: 16px;
-  margin-left: 0px;
-  resize: vertical;
-  color: black;
-  float: left;
-  margin-bottom: 5px
-    
-}
-
-
-input[type=submit] {
-  background-color: grey;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0px;
-  margin-bottom: 15px
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-  color: black;
-}
-
-.container2 {
-  border-radius: 5px;
-  background-color: black;
-  padding: 20px;
-  margin-top: 15px;
-  width: 500px;
-  height: 300px
-}
-.contacta{
-    border-radius: 5px;
-  background-color: clear;
-  margin-left: 0px;
-  width: 50px;
-  height: 100px;
-  margin-top: 5px;
-  margin-bottom: 195px;
-  
-    
-}
 
 
 
