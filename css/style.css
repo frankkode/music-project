@@ -280,7 +280,7 @@ body {
 
 
 .jumbotron{
-    background:url(../images/freeimage.png);
+    background:url(../images/black4.png);
     margin-top: 15px;
 }
 
@@ -389,9 +389,11 @@ body {
 
 
 
-/*contact form*/
+/*full tour world*/
 
 
-
+#v-1{
+    background:url(../images/black4.png);
+}
 
 
