@@ -293,7 +293,7 @@ h {
 
 
 body {
-  background: url(../images/freeimage2.png);
+  background: url(../images/black4.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,24 +355,11 @@ body {
 .medium{
     text-align: center;
    
-    margin-bottom:0px;
-
-
+    margin-bottom: 0px;
 
 /*modal background*/
 
 
-.modal-body{
-    background-color: lightblue;
-}
-
-
-/*full tour world*/
-
-
-#v-1{
-    background:url(../images/black4.png);
-}
 
 
 /*footer*/
@@ -415,7 +402,11 @@ body {
 }
     
     
-    
+   /*end footer*/ 
+
+#v-1{
+    background:url(../images/black4.png);
+}
 
 
 
