@@ -3,8 +3,45 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*test*/
+
+.image-big {
+  /* Set rules to fill background */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 400px;
+  height: 100%;
+    margin-bottom: 15px
+ 
+  
+	
+  /* Set up positioning */
+  
+ 
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
 
 
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
 
 /* Navbar */
 .navDefault {
@@ -101,6 +138,22 @@ button {
 
 
 
+.card-body{
+    background-color: #66CDAA;
+      border-radius: 20px;
+}
+.card{
+    margin: 25px;
+  
+}
+
+
+.card-group{
+    margin: 15px;
+}
+
+
+
 /* Buttons. */
 
 .btn--cta {
@@ -151,88 +204,6 @@ button {
 
 
 
-
-/*home image*/
-
-
-.image-big {
-  /* Set rules to fill background */
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: 400px;
-  height: 100%;
-    margin-bottom: 15px
- 
-  
-	
-  /* Set up positioning */
-  
-}
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
-
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    
-}
-
-
-
-/*booking parties*/
-
-
-
-.card-body{
-    background-color: #66CDAA;
-      border-radius: 20px;
-}
-.card{
-    margin: 25px;
-  
-}
-
-
-.card-group{
-    margin: 15px;
-}
-
-
-
-/*booking world wide*/
-
-
-
-.frame{
-  border: 4px solid #ddd;
-  border-radius: 10px;
- 
-}
-
-.frame:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-
-
-
-
-/*booking local*/
 
 
 
@@ -287,9 +258,6 @@ h {
 
 }
 
-/*body image*/
-
-
 
 
 body {
@@ -309,9 +277,6 @@ body {
   }
 }
 
-/*jumbtron image*/
-
-
 
 
 .jumbotron{
@@ -319,13 +284,15 @@ body {
     margin-top: 15px;
 }
 
+
+
 .card-img-top {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .card-title {
-    background-color: black;
+    background-color: #87CEFA;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
@@ -335,6 +302,9 @@ body {
 .card-body{
     border-radius: 0px;
 }
+
+
+
 .picture {
     position: relative;
     float: left;
@@ -345,39 +315,7 @@ body {
     background-size:     cover;
 }
 
-.warning{
-    background-color:  #D2691E ;
-    border-radius: 15px;
-}
-.warning:hover{
-    background-color:#BC8F8F;
-}
-.medium{
-    text-align: center;
-   
-    margin-bottom:0px;
-
-
-
-/*modal background*/
-
-
-.modal-body{
-    background-color: lightblue;
-}
-
-
-/*full tour world*/
-
-
-#v-1{
-    background:url(../images/black4.png);
-}
-
-
-/*footer*/
-
-
+ 
 
 .footer {
     background-color: black;
@@ -419,5 +357,42 @@ body {
 
 
 
+.hero-text {
+ 
+ float:left;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
 
+
+.warning{
+    background-color:  #D2691E ;
+    border-radius: 15px;
+}
+.warning:hover{
+    background-color:#BC8F8F;
+}
+.medium{
+    text-align: center;
+   
+    margin-bottom:0px;
+}
+
+
+.modal-body{
+    background-color: lightblue;
+}
+
+
+
+/*full tour world*/
+
+
+#v-1{
+    background:url(../images/black4.png);
+}
 
