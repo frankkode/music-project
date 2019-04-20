@@ -370,11 +370,11 @@ body {
 
 
 .warning{
-    background-color: #BC8F8F;
+    background-color:  #D2691E ;
     border-radius: 15px;
 }
 .warning:hover{
-    background-color: #D2691E;
+    background-color:#BC8F8F;
 }
 .medium{
     text-align: center;
