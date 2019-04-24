@@ -3,6 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
 /*test*/
 
 .image-big {
@@ -184,6 +191,15 @@ button {
     margin-top: 20px;
    background-color:orange;
 }
+
+/* signup butoon*/
+
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  #my-content{ display: none; }  /* show it on smaller screen */
+}
+
+
 
 .btn--red:hover,
 .btn--red:active,
@@ -405,3 +421,6 @@ body {
 .frame:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+
+
