@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    padding: 0px;
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      padding: 0px;
+  background: url(../images/freeimage2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+      
 }
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  body{ margin:0px;
-       padding:0px;
-  }  /* show it on smaller screen */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){ /* Specific */
+ body{
+      margin-left: 0px;
+      float: left;
+      padding: 0px;
+  }
 }
 
 
@@ -99,10 +109,19 @@ background-position: center;
     position: relative;
     height: 100%;
    
+}
+
+ .nava{
+     color: white;
+     background-color: blue;
+     margin: 15px
     
+     
+ }   
    
     
-}
+
+
 .navbar .navbar-nav :hover{
     color: orange;
     background-color: clear;
@@ -276,26 +295,6 @@ h {
 }
 
 
-
-body {
-  background: url(../images/freeimage2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  
-}
-
-@media screen and (min-width: 768px) { /* Specific to this particular image */
-  background {
-      background-size: cover;
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
-
-
 .jumbotron{
     background:url(../images/black4.png);
     margin-top: 15px;
@@ -387,11 +386,13 @@ body {
 
 
 .warning{
-    background-color: #BC8F8F;
+    background-color:#D2691E  ;
     border-radius: 15px;
+    width: 300px;
+    
 }
 .warning:hover{
-    background-color: #D2691E;
+    background-color: #BC8F8F;
 }
 .medium{
     text-align: center;
