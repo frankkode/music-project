@@ -204,7 +204,9 @@ button {
 .uppercase {
     text-transform: uppercase;
     font-size: 20px;
-    padding-bottom: 15px;
+   text-align: center;
+    padding-bottom: 8px;
+  
      
 }
 .uppercase:hover{
@@ -301,7 +303,7 @@ body {
   margin-right: auto;
 }
 .card-title {
-    background-color: #87CEFA;
+    background-color: #8B0000;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
