@@ -84,25 +84,23 @@ background-position: center;
     font-weight: bold;
     color: white;
     background-color: black;
-    border-radius: 25px;
+    border-radius: 5px;
     margin: 10px;
     text-align: center;
+    overflow-y:visible;
+     z-index: 1;
+    position: relative;
+    height: 100%;
+    transform: translateY(0);
+    transition: transform .5s ease-in-out;
+    
+   
+    
 }
 .navbar .navbar-nav :hover{
     color: orange;
     background-color: clear;
    
-}
-
-.nava{
-    margin: 10px;
-    background-color: skyblue;
-    color: black;
-}
-.nava:hover{
-    
-    color: black;
-
 }
 
 button {
@@ -126,7 +124,6 @@ button {
     z-index: -1;
     width: 150px;
     text-align: center;
-    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
     transform: translateY(-100%);
     transition: transform .5s ease-in-out;
 }
@@ -418,5 +415,7 @@ body {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-
+#gallery{
+    
+}
 
