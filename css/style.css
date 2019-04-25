@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  body{ margin:0px;
+       padding:0px;
+  }  /* show it on smaller screen */
 }
 
 
@@ -91,8 +98,7 @@ background-position: center;
      z-index: 1;
     position: relative;
     height: 100%;
-    transform: translateY(0);
-    transition: transform .5s ease-in-out;
+   
     
    
     
